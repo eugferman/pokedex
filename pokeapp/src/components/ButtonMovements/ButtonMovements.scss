@@ -1,0 +1,20 @@
+
+.buttons-pokedex-movements{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+
+  button{
+    background-color: grey;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #474747;
+  }
+}

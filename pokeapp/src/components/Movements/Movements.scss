@@ -1,0 +1,57 @@
+.main-attack-list{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.attack-list{
+  width: 1000px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  ul{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    li{
+      padding: 0;
+      background-color: white;
+      padding: 5px;
+      margin: 5px;
+      border-radius: 3px;
+    }
+  }
+
+  p{
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 425px){
+  .attack-list{
+    width: 280px;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 768px){
+  .attack-list{
+    width: 600px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px){
+  .attack-list{
+    width: 800px;
+  }
+}
+
+
+

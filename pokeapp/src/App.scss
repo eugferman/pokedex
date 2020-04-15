@@ -1,0 +1,75 @@
+body{
+  height: 100vh;
+  background-color: #b1b1b1;
+}
+
+h1, h2, h3, h4, h5, h6{
+  text-align: center;
+  margin: 20px 0px 0px 0px;
+  padding: 0;
+}
+
+.main-app{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.error-message{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.img-title{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  img{
+    margin-top: 20px;
+    width: 300px;
+  }
+}
+
+.data-pokemon{
+  display: flex;
+  flex-direction: row;
+  justify-content: justify;
+}
+
+.data-pokedex{
+  margin: 5px;
+}
+
+.data-tabletypes{
+  margin: 5px;
+}
+
+@media (min-width: 0px) and (max-width: 425px){
+
+  .img-title{
+
+    img{
+      width: 250px;
+    }
+  }
+  .data-pokemon{
+    flex-direction: column;
+  }
+
+  .data-pokedex{
+    margin: 0 0 5px 0;
+  }
+  
+  .data-tabletypes{
+    width: 280px;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 768px){
+
+  .data-pokemon{
+    flex-direction: column;
+  }
+}

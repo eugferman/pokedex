@@ -1,0 +1,88 @@
+
+.bg-pokemon{
+  
+  width: 380px;
+  margin: 10px;
+  border-radius: 5px 5px 50px 5px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #000000;
+
+  img{
+    width: 200px;
+  }
+}
+
+.poison{
+  background-image: url("../../img/bg-pokedex-poison.png");
+}
+
+.grass{
+  background-image: url("../../img/bg-pokedex-grass.png");
+}
+
+.bug{
+  background-image: url("../../img/bg-pokedex-bug.png");
+}
+
+.water{
+  background-image: url("../../img/bg-pokedex-water.png");
+}
+
+.ghost{
+  background-image: url("../../img/bg-pokedex-ghost.png");
+}
+
+.ice{
+  background-image: url("../../img/bg-pokedex-ice.png");
+}
+
+.dragon{
+  background-image: url("../../img/bg-pokedex-dragon.png");
+}
+
+.flying{
+  background-image: url("../../img/bg-pokedex-flying.png");
+}
+
+.ground{
+  background-image: url("../../img/bg-pokedex-ground.png");
+}
+
+.fighting{
+  background-image: url("../../img/bg-pokedex-fighting.png");
+}
+
+.rock{
+  background-image: url("../../img/bg-pokedex-rock.png");
+}
+
+.electric{
+  background-image: url("../../img/bg-pokedex-electric.png");
+}
+
+.dark{
+  background-image: url("../../img/bg-pokedex-dark.png");
+}
+
+.fairy{
+  background-image: url("../../img/bg-pokedex-fairy.png");
+}
+
+.fire{
+  background-image: url("../../img/bg-pokedex-fire.png");
+}
+
+.steel{
+  background-image: url("../../img/bg-pokedex-steel.png");
+}
+
+.psychic{
+  background-image: url("../../img/bg-pokedex-psychic.png");
+}
+
+@media (min-width: 0px) and (max-width: 425px){
+  .bg-pokemon{
+    width: 250px;
+  }
+}
