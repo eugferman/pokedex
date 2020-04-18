@@ -81,6 +81,10 @@
   background-image: url("../../img/bg-pokedex-psychic.png");
 }
 
+.normal{
+  background-image: url("../../img/bg-pokedex-normal.jpg");
+}
+
 @media (min-width: 0px) and (max-width: 425px){
   .bg-pokemon{
     width: 250px;
