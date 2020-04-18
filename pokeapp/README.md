@@ -6,5 +6,7 @@ It's a pokedex, you can search a Pokemon and see his type, weaknesses, strengths
 
 ### Technologies
 
-I have used React and Redux.<br />
-The pokedex is responsive and i have used SCSS.
+- React
+- Redux
+- Jest for Unit Test
+- Sass
