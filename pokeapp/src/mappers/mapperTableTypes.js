@@ -1,5 +1,8 @@
 function mapperTableTypes(typeOfCurrentPokemon, tableTypesOfPokemon) {
   
+  console.log("typeOfCurrentPokemon: ", typeOfCurrentPokemon);
+  console.log("tableTypesOfPokemon", tableTypesOfPokemon);
+
   const typesPokemon = []
   for(let x = 0; x < typeOfCurrentPokemon.length; x++){
     typesPokemon.push(typeOfCurrentPokemon[x].type.name);
